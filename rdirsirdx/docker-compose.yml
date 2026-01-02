@@ -1,7 +1,0 @@
-version: '3'
-
-services:
-    rdirsirdx:
-      build: .
-      ports:
-        - "13283:13283"

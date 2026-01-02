@@ -1,7 +1,0 @@
-version: '3'
-
-services:
-    getsputs:
-      build: .
-      ports:
-        - "13281:13281"

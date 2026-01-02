@@ -1,7 +1,0 @@
-version: '3'
-
-services:
-    banking:
-      build: .
-      ports:
-        - "13280:13280"

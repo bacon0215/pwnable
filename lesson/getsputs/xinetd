@@ -1,0 +1,12 @@
+service getsputs
+{
+		disable = no
+		type = UNLISTED
+		wait = no
+		server = /home/getsputs/run.sh
+		socket_type = stream
+		protocol = tcp
+		user = getsputs
+		port = 13281
+		flags = REUSE
+}

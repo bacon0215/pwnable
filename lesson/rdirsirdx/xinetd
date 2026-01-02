@@ -1,0 +1,12 @@
+service rdirsirdx
+{
+		disable = no
+		type = UNLISTED
+		wait = no
+		server = /home/rdirsirdx/run.sh
+		socket_type = stream
+		protocol = tcp
+		user = rdirsirdx
+		port = 13283
+		flags = REUSE
+}

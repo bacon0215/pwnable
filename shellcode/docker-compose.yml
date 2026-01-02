@@ -1,7 +1,0 @@
-version: '3'
-
-services:
-    shellcode:
-      build: .
-      ports:
-        - "13282:13282"

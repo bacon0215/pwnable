@@ -1,0 +1,12 @@
+service banking
+{
+		disable = no
+		type = UNLISTED
+		wait = no
+		server = /home/banking/run.sh
+		socket_type = stream
+		protocol = tcp
+		user = banking
+		port = 13280
+		flags = REUSE
+}
